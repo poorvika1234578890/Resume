@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        .resume {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: left;
+            border-bottom: 30px solid #00a65a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .header p {
+            margin: 5px 0 0;
+            color: #666;
+        }
+
+        .header contact{
+            text-align: left;
+            border-bottom: 55px solid #00a65a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .contact {
+            margin-top: 10px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .contact i {
+            /* margin-right: 1px; */
+        }
+
+        .columns {
+            display: flex;
+            gap: 20px;
+        }
+
+        .left, .right {
+            width: 50%;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #00a65a;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #00a65a;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-badge {
+            padding: 5px 10px;
+            background: #00a65a;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 0.85rem;
+        }
+
+        .languages {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .language {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .language-bar {
+            width: 60%;
+            height: 8px;
+            background: #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .language-bar span {
+            display: block;
+            height: 100%;
+            background: #00a65a;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>POORVIKA</h1>
+            <p>Bachelor's Degree in Computer Science Engineering (CSE)</p>
+            <p>Hardworking student seeking employment. Ready to utilize my skills and passion to further the mission of a company.</p>
+            <div class="contact">
+                <p><i class="fas fa-envelope"></i>poorvika@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 9620801453</p>
+                <p><i class="fas fa-map-marker-alt"></i>Shimoga</p>
+                <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/company/login">LinkedIn</a></p>
+            </div>
+        </div>
+
+        <!-- Body Content -->
+        <div class="columns">
+            <!-- Left Section -->
+            <div class="left">
+                <!-- Courses Section -->
+                <div class="section">
+                    <h2>Courses</h2>
+                    <h3>Full Stack Web Development</h3>
+                    <p><strong>Internshaala</strong> (Mar 2024 - June 2024)</p>
+                    <ul>
+                        <li>Implemented Dynamics 365 CE Sales and Customer Service Modules.</li>
+                        <li>Created custom entities, forms, views, and configuration (security roles, business units, etc.).</li>
+                        <li>Managed employee leaves using JavaScript for assigning leaves.</li>
+                        <li>Integrated SharePoint with Dynamics 365 for uploading documents.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Courses</h2>
+                    <h3>Cloud Computing</h3>
+                    <p><strong>NPTL</strong> (Dec 2023 - Mar 2024)</p>
+                    <ul>
+                        <li>Implemented Dynamics 365 CE Sales and Customer Service Modules.</li>
+                        <li>Created custom entities, forms, views, and configuration (security roles, business units, etc.).</li>
+                        <li>Managed employee leaves using JavaScript for assigning leaves.</li>
+                        <li>Integrated SharePoint with Dynamics 365 for uploading documents.</li>
+                    </ul>
+                </div>
+
+                <!-- Personal Projects Section -->
+                <div class="section">
+                    <h2>Personal Projects</h2>
+                    <ul>
+                        <li><strong>Farm Connect (Nov 2024):</strong> Created using PHP, HTML, CSS & Javascript.</li>
+                        <li><strong>Ball Game (Oct 2021):</strong> Created using Python.</li>
+                        <li><strong>Kumaoni Culture (Jun 2021):</strong> Website using WordPress (1st prize).</li>
+                    </ul>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="section">
+                    <h2>Interests</h2>
+                    <p>Travelling</p>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="right">
+                <!-- Technical Skills -->
+                <div class="section">
+                    <h2>Technical Skills</h2>
+                    <div class="skills">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">Web Development</span>
+                        <span class="skill-badge">Cloud Computing</span>
+                        <span class="skill-badge">Workflows</span>
+                        <span class="skill-badge">C</span>
+                        <span class="skill-badge">Core Java</span>
+                        <span class="skill-badge">Python</span>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="section">
+                    <h2>Education</h2>
+                    <p><strong>Bachelor's Degree in Computer Science Engineering (CSE) (Apr 2020 - Pursuing)</strong></p>
+                    <p>JNNCE</p>
+                    <p><strong>Physics, Chemistry, and Mathematics</strong></p>
+                    <p>Vikasa Pu College (Mar 2020 - Aug 2022)</p>
+                    <p><strong>kasturba girls high school</strong></p>
+                    <p>Karnataka State Board, 2020</p>
+                </div>
+
+                <!-- Certificates -->
+                <div class="section">
+                    <h2>Certificates</h2>
+                    <ul>
+                        <li>Full Stack Web Development</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Achivements</h2>
+                    <ul>
+                        <li>Secured 3<sup>rd</sup> place in Codizz IEEE Compitation</li>
+                        <li>Secured 1<sup>st</sup> in Idead pitching held by TITAN</li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div class="section">
+                    <h2>Languages</h2>
+                    <div class="languages">
+                        <div class="language">
+                            <span>English</span>
+                            <div class="language-bar"><span style="width: 80%;"></span></div>
+                        </div>
+                        <div class="language">
+                            <span>Hindi</span>
+                            <div class="language-bar"><span style="width: 70%;"></span></div>
+                        </div>
+                        <div class="language">
+                            <span>Kannada</span>
+                            <div class="language-bar"><span style="width: 76%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- dark mode -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+            });
+        });
+    </script>
+    <style>
+        .theme-switcher {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: linear-gradient(to right,#343434, #4c4b4b);
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .resume {
+            background: #fff;
+            box-shadow: 5px 5px 10px rgba(236, 232, 232, 0.1);
+        }
+        body.dark-theme .header p {
+            margin: 5px 0 0;
+            color: #ddd;
+        }
+
+        body.dark-theme .header a {
+            margin: 5px 0 0;
+            color: #ddd;
+        }
+
+        body.dark-theme {
+            background-color: #222;
+            color: #ddd;
+        }
+
+        body.dark-theme .resume {
+            background: #333;
+            color: #ddd;
+        }
+
+        body.dark-theme .left {
+            background: linear-gradient(to right,#343434, #4c4b4b);
+        }
+
+        body.dark-theme .right {
+            background: linear-gradient(to right,#343434, #4c4b4b);
+        }
+
+        body.dark-theme .progress {
+            background: #00ff99;
+        }
+    </style>
+
+    <div id="theme-toggle" class="theme-switcher">Dark mode</div>    
+
+</body>
+</html>
